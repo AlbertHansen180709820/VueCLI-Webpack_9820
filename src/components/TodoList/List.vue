@@ -66,8 +66,7 @@
 </template>
 
 <script>
-    export default 
-    {
+    export default {
         name: "List",
         data() 
         {
