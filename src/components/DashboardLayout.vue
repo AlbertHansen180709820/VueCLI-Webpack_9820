@@ -20,9 +20,9 @@
                     tag="router-link"
                     :to="item.to"
                 >
-                    <v-list-item-content>
-                        <v-list-item-title>{{ item.title }}</v-list-item-title>
-                    </v-list-item-content>
+                <v-list-item-content>
+                    <v-list-item-title>{{ item.title }}</v-list-item-title>
+                </v-list-item-content>
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
@@ -43,6 +43,7 @@
                 [
                     { title: "Dashboard", to: "/" },
                     { title: "GD", to: "/gd" },
+                    { title: "UGD", to: "/ugd" },
                 ],
             };
         },
